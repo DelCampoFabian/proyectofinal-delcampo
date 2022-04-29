@@ -107,7 +107,7 @@ body {
 
 .resumen .resumen-conteiner .resumen__texto {
   height: 45%;
-  padding: 10px;
+  padding: 30px 10px;
   font-size: 22px;
 }
 
@@ -185,6 +185,13 @@ body {
   .navegacion .nav__rutas li {
     padding: 10px 15px;
   }
+  .navegacion .nav__rutas li:hover {
+    background-color: #00D0FF;
+    -webkit-transform: scale(0.95);
+            transform: scale(0.95);
+    -webkit-box-shadow: 0px -2px 10px 0 #ddd;
+            box-shadow: 0px -2px 10px 0 #ddd;
+  }
   .home {
     margin-top: 30px;
   }
@@ -211,7 +218,6 @@ body {
   }
   .home .home-texto {
     width: 50%;
-    padding: 20px 10px;
   }
   .home .home-texto .home__titulo {
     font-size: 42px;
@@ -247,16 +253,50 @@ body {
         -ms-flex-order: 2;
             order: 2;
   }
+  .pie .pie-contacto .fa-phone:hover {
+    -webkit-transform: rotate(35deg);
+            transform: rotate(35deg);
+  }
+  .pie .pie-contacto .fa-location-dot:hover {
+    -webkit-transform: translatey(3px);
+            transform: translatey(3px);
+  }
   .pie .pie-titulo {
     display: none;
   }
   .pie .pie-iconos i {
-    -webkit-transition-duration: .4s;
-            transition-duration: .4s;
+    -webkit-transition-duration: .3s;
+            transition-duration: .3s;
   }
   .pie .pie-iconos i:hover {
     -webkit-transform: translatey(-10px);
             transform: translatey(-10px);
   }
+}
+
+.lugares-titulo {
+  font-size: 48px;
+  font-family: "pacifico" ,cursive;
+}
+
+.lugares {
+  height: 600px;
+}
+
+.lugares .lugares-img {
+  width: 100%;
+  height: 60%;
+}
+
+.lugares .lugares-img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.lugares .lugares-info {
+  height: 40%;
+  background-color: #0DBAFF88;
 }
 /*# sourceMappingURL=style.css.map */

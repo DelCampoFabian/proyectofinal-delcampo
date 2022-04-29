@@ -79,7 +79,7 @@ body {background-color: #95f3f7;
         }
         .resumen__texto{
             height: 45%;
-            padding: 10px;
+            padding:30px 10px;
             font-size: 22px;
         }
     }       
@@ -142,6 +142,11 @@ body {background-color: #95f3f7;
                 font-size:20px ;
                 li{ 
                 padding: 10px 15px;
+                &:hover {
+                    background-color: #00D0FF;
+                    transform: scale(0.95);
+                    box-shadow: 0px -2px 10px 0 #ddd;
+                }
                 }
             }
         }
@@ -166,7 +171,6 @@ body {background-color: #95f3f7;
         border-radius: 10px;
         .home-texto{
             width: 50%;
-            padding: 20px 10px;
             .home__titulo {
                 font-size: 42px;
                 }
@@ -187,18 +191,26 @@ body {background-color: #95f3f7;
     .secundario {
         display: block;
     }
+
+
     .pie {
         display: flex;
         justify-content:space-evenly;
         align-items: center;
         .pie-contacto {
             order: 2;
+            .fa-phone:hover  {
+                transform: rotate(35deg);
+            }
+            .fa-location-dot:hover {
+                transform: translatey(3px);
+            }
         }
         .pie-titulo {
             display: none;
         }
         .pie-iconos i {
-           transition-duration: .4s;
+           transition-duration: .3s;
            &:hover {
             transform: translatey(-10px);
             }

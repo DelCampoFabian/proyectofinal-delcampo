@@ -1,0 +1,24 @@
+.lugares-titulo {
+    font-size: 48px;
+    font-family: "pacifico" ,cursive;
+}
+.lugares {
+    height:600px;
+    .lugares-img {
+        width: 100%;
+        height: 60%;
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }    
+    .lugares-info{
+        height:40%;
+        background-color: #0DBAFF88;
+            
+    }
+}
+
+
+
