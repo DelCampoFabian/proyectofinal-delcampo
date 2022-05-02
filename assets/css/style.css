@@ -109,6 +109,7 @@ body {
   height: 45%;
   padding: 30px 10px;
   font-size: 22px;
+  overflow: hidden;
 }
 
 /*-----PIE DE PAGINA-----*/
