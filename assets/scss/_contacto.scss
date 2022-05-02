@@ -1,0 +1,112 @@
+.contacto__medios {
+    display: none;
+}
+.contactos__contain {
+    width: 100%;
+    margin-top: 50px;
+    background-color:#fff;
+    border-radius: 4px;
+    
+        h2{
+            font-family: "pacifico" ,cursive; 
+            padding: 20px 15px;
+            font-size: 36px;
+        }
+        .contacto__form {
+            width: 95%;
+            margin: auto;
+        }
+        .form__input{
+            width: 100%;
+            padding: 10px 15px;
+            margin:5px auto;
+            font-size: 18px;
+            border: none;
+            border-bottom: 3px solid #000;
+            border-radius: 4px;
+            background-color: #00D0FF88;
+            &:focus {
+                background-color: #fff;
+                color: #000;
+            }
+        }
+        .form__label {
+            font-size: 20px;
+            margin: 5px auto;
+            padding: 10px;
+            text-align: left;
+        }   
+        textarea {
+            resize: none;
+            height: 150px;
+            margin: 20px auto;
+            width: 100%;
+            padding: 10px 15px;
+            font-size: 18px;
+            border: none;
+            border-bottom: 3px solid #000;
+            border-radius: 4px;
+            background-color: #00D0FF88;
+            &:focus {
+                background-color: #fff;
+                color: #000;
+            }
+        }
+        .form__btn {
+            width: 100%;
+            padding: 10px 15px;
+            margin: 15px auto 30px auto;
+            font-size: 18px;
+            font-family: "pacifico" ,cursive;
+            border: none;
+            border-bottom: 3px solid #000;
+            background-color: #0cf;
+            border-radius: 4px;
+
+        }
+  
+}
+
+
+@media (min-width:768px) {
+    .contactos__contain {
+        width: 70%;
+        margin: 100px auto;
+    }
+    
+
+}
+
+@media (min-width:1024px) {
+    .contactos__contain {
+        background: linear-gradient(0deg, rgba(47,255,249,1) 8%, rgba(61,255,249,1) 11%, rgba(255,255,255,0.39539565826330536) 54%);
+        width: 80%;
+        border: 3px solid #aaa;
+    }
+    .contacto__medios {
+        display: block;
+        width: 50%;
+    }
+    .contactos__flex {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        .contacto__form {
+            width: 50%;
+            margin: auto;
+            input {
+                width: 75%;
+            }
+            label {
+                display: block;
+                text-align: center;
+            }
+            textarea {
+                width: 75%;
+                
+            }
+        }
+    }
+
+}
