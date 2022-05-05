@@ -1,5 +1,7 @@
-@import "_inicio.scss";
-@import "_destinos.scss";
-@import "_servicios.scss";
-@import "_contacto.scss";
 @import "variables";
+@import "mixins";
+@import "inicio";
+@import "destinos";
+@import "servicios";
+@import "contacto";
+

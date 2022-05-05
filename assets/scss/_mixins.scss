@@ -1,0 +1,14 @@
+@mixin boxmodel ($padding, $margin, $border,$border-radius) {
+    padding: $padding;
+    margin: $margin;
+    border: $border;
+    border-radius: $border-radius;
+}
+
+@mixin propiedadDisplay ($displays,$justificado,$alineado,$direccion) {
+    display: $displays;
+    justify-content: $justificado;
+    align-items: $alineado;
+    flex-direction: $direccion;
+    
+}

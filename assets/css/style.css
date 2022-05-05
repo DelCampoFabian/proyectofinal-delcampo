@@ -8,7 +8,7 @@ body {
 }
 
 .navegacion {
-  background-color: #0DBAFF88;
+  background-color: #00D0FF88;
   border-radius: 4px;
   margin-top: 20px;
 }
@@ -16,7 +16,7 @@ body {
 .navegacion .nav__titulo {
   padding-top: 20px;
   font-size: 34px;
-  font-family: "pacifico" ,cursive;
+  font-family: "pacifico",cursive;
 }
 
 .navegacion .nav__titulo a {
@@ -30,18 +30,22 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   font-size: 22px;
 }
 
 .navegacion .nav__rutas li {
   padding: 10px 20px;
+  border-radius: 4px;
 }
 
 .navegacion .nav__rutas a {
@@ -58,7 +62,7 @@ body {
 .home .home__titulo {
   font-size: 36px;
   padding: 25px 10px;
-  font-family: "pacifico" ,cursive;
+  font-family: "pacifico",cursive;
 }
 
 .home .home__info {
@@ -84,13 +88,16 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 
 .resumen .resumen-conteiner .resumen__img {
@@ -107,7 +114,7 @@ body {
 .resumen .resumen-conteiner .resumen__texto {
   height: 45%;
   padding: 30px 10px;
-  font-size: 22px;
+  font-size: 20px;
   overflow: hidden;
 }
 
@@ -144,10 +151,10 @@ body {
 .pie-iconos a i {
   padding: 10px;
   margin: 15px;
-  font-size: 26px;
   border: 3px solid #0cf;
-  background-color: #00D0FF88;
   border-radius: 25px;
+  font-size: 26px;
+  background-color: #00D0FF88;
 }
 
 @media (min-width: 768px) {
@@ -163,6 +170,10 @@ body {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
   }
   .navegacion .nav__titulo {
     width: 35%;
@@ -174,12 +185,15 @@ body {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
     font-size: 20px;
   }
   .navegacion .nav__rutas li {
@@ -214,6 +228,10 @@ body {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
     border-radius: 10px;
   }
   .home .home-texto {
@@ -224,6 +242,7 @@ body {
   }
   .home .home-texto .home__info {
     font-size: 20px;
+    color: #000;
   }
   .home .home-img {
     width: 50%;
@@ -247,6 +266,10 @@ body {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
   }
   .pie .pie-contacto {
     -webkit-box-ordinal-group: 3;
@@ -276,7 +299,7 @@ body {
 
 .lugares-titulo {
   font-size: 48px;
-  font-family: "pacifico" ,cursive;
+  font-family: "pacifico",cursive;
 }
 
 .lugares {
@@ -297,7 +320,7 @@ body {
 
 .lugares .lugares-info {
   height: 40%;
-  background-color: #0DBAFF88;
+  background-color: #00D0FF88;
 }
 
 .servicios__info h4 {
@@ -310,7 +333,7 @@ body {
 
 .servicios__info .btn {
   padding: 5px 15px;
-  background-color: #0DBAFF88;
+  background-color: #00D0FF88;
   border: none;
   border-bottom: 2px solid #000;
 }
@@ -340,20 +363,20 @@ body {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
   }
-  .servicios .servicios__img {
+  .servicios .servicios__img, .servicios .servicios__info {
     width: 50%;
     height: 100%;
   }
-  .servicios .servicios__img img {
+  .servicios .servicios__img img, .servicios .servicios__info img {
     width: 100%;
     height: 100%;
     -o-object-fit: cover;
        object-fit: cover;
-  }
-  .servicios .servicios__info {
-    width: 50%;
-    height: 100%;
   }
   .servicios .servicios__info p {
     text-align: left;
@@ -378,7 +401,7 @@ body {
 }
 
 .contactos__contain h2 {
-  font-family: "pacifico" ,cursive;
+  font-family: "pacifico",cursive;
   padding: 20px 15px;
   font-size: 36px;
 }
@@ -392,10 +415,10 @@ body {
   width: 100%;
   padding: 10px 15px;
   margin: 5px auto;
-  font-size: 18px;
   border: none;
-  border-bottom: 3px solid #000;
   border-radius: 4px;
+  font-size: 18px;
+  border-bottom: 3px solid #000;
   background-color: #00D0FF88;
 }
 
@@ -414,13 +437,13 @@ body {
 .contactos__contain textarea {
   resize: none;
   height: 150px;
-  margin: 20px auto;
-  width: 100%;
   padding: 10px 15px;
-  font-size: 18px;
+  margin: 20px auto;
   border: none;
-  border-bottom: 3px solid #000;
   border-radius: 4px;
+  width: 100%;
+  font-size: 20px;
+  border-bottom: 3px solid #000;
   background-color: #00D0FF88;
 }
 
@@ -432,13 +455,13 @@ body {
 .contactos__contain .form__btn {
   width: 100%;
   padding: 10px 15px;
-  margin: 15px auto 30px auto;
+  margin: 15px auto 30px;
+  border: none;
+  border-radius: 4px;
   font-size: 18px;
   font-family: "pacifico" ,cursive;
-  border: none;
   border-bottom: 3px solid #000;
   background-color: #0cf;
-  border-radius: 4px;
 }
 
 @media (min-width: 768px) {
@@ -469,6 +492,10 @@ body {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
     text-align: center;
   }
   .contactos__flex .contacto__form {

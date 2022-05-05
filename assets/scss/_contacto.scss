@@ -17,12 +17,9 @@
     }
     .form__input{
         width: 100%;
-        padding: 10px 15px;
-        margin:5px auto;
+        @include boxmodel (10px 15px, 5px auto,none,4px);
         font-size: 18px;
-        border: none;
         border-bottom: 3px solid #000;
-        border-radius: 4px;
         background-color: $colorprimario;
         &:focus {
             background-color: #fff;
@@ -38,13 +35,10 @@
     textarea {
         resize: none;
         height: 150px;
-        margin: 20px auto;
-        width: 100%;
-        padding: 10px 15px;
-        font-size: 18px;
-        border: none;
+        @include boxmodel (10px 15px, 20px auto, none,4px);
+        width: 100%; 
+        font-size: map-get($letras, tamaño );
         border-bottom: 3px solid #000;
-        border-radius: 4px;
         background-color: #00D0FF88;
         &:focus {
             background-color: #fff;
@@ -53,14 +47,11 @@
     }
     .form__btn {
         width: 100%;
-        padding: 10px 15px;
-        margin: 15px auto 30px auto;
+        @include boxmodel (10px 15px, 15px auto 30px,none,4px);
         font-size: 18px;
         font-family: "pacifico" ,cursive;
-        border: none;
         border-bottom: 3px solid #000;
         background-color: #0cf;
-        border-radius: 4px;
     }
 }
 
@@ -83,9 +74,7 @@
         width: 50%;
     }
     .contactos__flex {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        @include propiedadDisplay (flex,center,center,row);
         text-align: center;
         .contacto__form {
             width: 50%;
