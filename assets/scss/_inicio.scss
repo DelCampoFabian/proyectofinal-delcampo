@@ -55,7 +55,7 @@ body {
 }
 .resumen {
     width: 95%;
-    height: 60vh;
+    height:65vh;
     margin: auto;
     .resumen-conteiner {
         background-color: $colorprimario;
@@ -73,7 +73,7 @@ body {
         .resumen__texto{
             height: 45%;
             padding:30px 10px;
-            font-size:20px;
+            font-size:18px;
             overflow: hidden;
         }
     }       

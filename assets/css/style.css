@@ -77,7 +77,7 @@ body {
 
 .resumen {
   width: 95%;
-  height: 60vh;
+  height: 65vh;
   margin: auto;
 }
 
@@ -114,7 +114,7 @@ body {
 .resumen .resumen-conteiner .resumen__texto {
   height: 45%;
   padding: 30px 10px;
-  font-size: 20px;
+  font-size: 18px;
   overflow: hidden;
 }
 
@@ -304,6 +304,7 @@ body {
 
 .lugares {
   height: 600px;
+  overflow: hidden;
 }
 
 .lugares .lugares-img {
