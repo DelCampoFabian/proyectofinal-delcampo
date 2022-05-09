@@ -1,0 +1,15 @@
+.boton{
+    padding: 5px 15px;
+    border: none;
+    border-bottom: 2px solid #000;
+    &:hover {
+        transform: scale(1.05);
+        box-shadow: 0px 2px 10px 0 #000
+    }
+}
+@each $clave, $var in $colores {
+    .boton-#{$clave}{
+        background-color: $var;
+    }
+    
+}

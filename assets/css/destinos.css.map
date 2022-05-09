@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AACA,AAAA,QAAQ,CAAC;EACL,MAAM,EAAE,aAAa;CACxB",
-    "sources": [
-        "../scss/destinos.scss"
-    ],
-    "names": [],
-    "file": "destinos.css"
-}

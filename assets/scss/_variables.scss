@@ -1,5 +1,13 @@
 $colorprimario:#00D0FF88;
+$colorsecundario: #00CDDD; 
+$colorterciario:#29aacc;
+
+$colores: (primario:$colorprimario, 
+           secundario:$colorsecundario, 
+           terciario:$colorterciario);
+
 $letras: (
     tamaño: 20px,
     colores: #000,
 );
+

@@ -6,16 +6,6 @@
 
 .servicios__info {
     background-color: #fff;
-    .btn{
-        padding: 5px 15px;
-        background-color: $colorprimario;
-        border: none;
-        border-bottom: 2px solid #000;
-        &:hover {
-            transform: scale(1.05);
-            box-shadow: 0px 2px 10px 0 #000
-        }
-    }
 }
 
 .info__extra {
