@@ -1,11 +1,19 @@
 .servicios__info{
+    background-color: #fff;
     h4{
         font-family: "pacifico" ,cursive;
     }
-}
-
-.servicios__info {
-    background-color: #fff;
+    .boton{
+        padding: 5px 15px;
+        border: none;
+        border-bottom: 2px solid #000;
+        border-radius: 4px;
+        background-color: #0ac;
+        &:hover {
+            transform: scale(1.05);
+            box-shadow: 0px 2px 10px 0 #000
+        }
+    }
 }
 
 .info__extra {

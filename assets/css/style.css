@@ -1,35 +1,10 @@
-.boton {
-  padding: 5px 15px;
-  border: none;
-  border-bottom: 2px solid #000;
-}
-
-.boton:hover {
-  -webkit-transform: scale(1.05);
-          transform: scale(1.05);
-  -webkit-box-shadow: 0px 2px 10px 0 #000;
-          box-shadow: 0px 2px 10px 0 #000;
-}
-
-.boton-primario {
-  background-color: #00D0FF88;
-}
-
-.boton-secundario {
-  background-color: #00CDDD;
-}
-
-.boton-terciario {
-  background-color: #29aacd;
-}
-
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
 
 body {
-  background-color: #fff;
+  background-color: #cef;
 }
 
 .navegacion {
@@ -126,6 +101,7 @@ body {
 }
 
 .resumen .resumen-conteiner .resumen__img {
+  width: 100%;
   height: 55%;
 }
 
@@ -141,6 +117,10 @@ body {
   padding: 30px 10px;
   font-size: 18px;
   overflow: hidden;
+}
+
+.resumen .resumen-conteiner .resumen__texto h4 {
+  font-family: "pacifico",cursive;
 }
 
 /*-----PIE DE PAGINA-----*/
@@ -352,12 +332,31 @@ body {
   border-radius: 0 0 10px 10px;
 }
 
-.servicios__info h4 {
-  font-family: "pacifico" ,cursive;
+.lugares .lugares-info h3 {
+  font-family: "pacifico",cursive;
 }
 
 .servicios__info {
   background-color: #fff;
+}
+
+.servicios__info h4 {
+  font-family: "pacifico" ,cursive;
+}
+
+.servicios__info .boton {
+  padding: 5px 15px;
+  border: none;
+  border-bottom: 2px solid #000;
+  border-radius: 4px;
+  background-color: #0ac;
+}
+
+.servicios__info .boton:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-box-shadow: 0px 2px 10px 0 #000;
+          box-shadow: 0px 2px 10px 0 #000;
 }
 
 .info__extra {
@@ -477,6 +476,13 @@ body {
   font-family: "pacifico" ,cursive;
   border-bottom: 3px solid #000;
   background-color: #0cf;
+}
+
+.contactos__contain .form__btn:hover {
+  -webkit-transform: scale(0.98);
+          transform: scale(0.98);
+  border: 2px solid #000;
+  background-color: #0cfa;
 }
 
 @media (min-width: 768px) {
