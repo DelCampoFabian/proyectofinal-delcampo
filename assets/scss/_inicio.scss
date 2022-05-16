@@ -1,9 +1,7 @@
 * {
     box-sizing: border-box;  
 }
-body {
-    background-color: #cef;
-}    
+
 .navegacion {
     background-color: $colorprimario;
     border-radius: 4px;
@@ -61,6 +59,7 @@ body {
         background-color: $colorprimario;
         width: 30%;
         height: 100%;
+        border: 1px solid #234;
         @include propiedadDisplay (flex,center,center,column);
         .resumen__img{
             width: 100%;
