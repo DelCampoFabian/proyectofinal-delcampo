@@ -2,9 +2,9 @@ Tecnologías utilizadas para realizar el sitio web:
 
  En Visual Studio Code utilice las siguientes tecnologías:
  
-	-HTML para la maquetación y estructura, 
+	-HTML para la maquetación y estructura.
 	-Compile Sass al Css para darle estilo y acomodar los componentes del sitio. 
-	-JavaScript para la interacción del menú de navegación con Bootstrap (Framework). 
+	-Bootstrap (Framework) para el slider de la sección de "experiencias". 
 
  GIT:
 
