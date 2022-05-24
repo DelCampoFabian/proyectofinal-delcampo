@@ -1,4 +1,6 @@
 * {
+  padding: 0;
+  margin: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -81,7 +83,6 @@
   background-color: #00D0FF88;
   width: 30%;
   height: 100%;
-  border: 1px solid #234;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -126,18 +127,18 @@
   margin-top: 20px;
 }
 
-.pie-titulo {
+.pie .pie-titulo {
   padding-top: 20px;
   font-size: 32px;
   font-family: "pacifico" ,cursive;
 }
 
-.pie-contacto {
+.pie .pie-contacto {
   padding-top: 5px;
   font-size: 20px;
 }
 
-.pie-contacto .fa-phone, .pie-contacto .fa-location-dot {
+.pie .pie-contacto .fa-phone, .pie .pie-contacto .fa-location-dot {
   margin: 0px 8px;
 }
 
@@ -234,7 +235,7 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    border-radius: 10px;
+    border-radius: 5px;
   }
   .home .home-texto {
     width: 50%;
@@ -253,7 +254,7 @@
   .home .home-img img {
     width: 100%;
     height: 100%;
-    border-radius: 10px 0 0 10px;
+    border-radius: 5px 0 0 5px;
   }
   .secundario {
     display: block;
@@ -327,6 +328,7 @@
   height: 50%;
   background-color: #00D0FF88;
   border-radius: 0 0 10px 10px;
+  overflow: hidden;
 }
 
 .lugares .lugares-info h3 {
@@ -476,9 +478,8 @@
 }
 
 .contactos__contain .form__btn:hover {
-  -webkit-transform: scale(0.98);
-          transform: scale(0.98);
-  border: 2px solid #000;
+  -webkit-transform: scale(0.99);
+          transform: scale(0.99);
   background-color: #0cfa;
 }
 
@@ -494,7 +495,7 @@
     background: -webkit-gradient(linear, left bottom, left top, color-stop(8%, #2ffff9), color-stop(11%, #3dfff9), color-stop(54%, rgba(255, 255, 255, 0.395396)));
     background: linear-gradient(0deg, #2ffff9 8%, #3dfff9 11%, rgba(255, 255, 255, 0.395396) 54%);
     width: 80%;
-    border: 3px solid #aaa;
+    border: 3px solid #999;
   }
   .contacto__medios {
     display: block;
